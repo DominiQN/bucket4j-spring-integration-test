@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: bucket4j-spring-integration-test
