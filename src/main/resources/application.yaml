@@ -1,3 +1,9 @@
 spring:
   application:
     name: bucket4j-spring-integration-test
+
+rate-limiter:
+  capacity: 2
+  refill-policy: interval
+  refill-tokens: 1
+  refill-period: 10s

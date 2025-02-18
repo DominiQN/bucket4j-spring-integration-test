@@ -1,4 +1,4 @@
-### GET request to example server
+### POST request to example server
 POST http://127.0.0.1:8080/users
 Content-Type: application/json
 
@@ -7,3 +7,9 @@ Content-Type: application/json
   "name": "User One",
   "email": "user1@example.org"
 }
+
+### GET request to example server
+GET http://127.0.0.1:8080/rate-limits
+
+### GET request to example server
+GET http://127.0.0.1:8080/stats
